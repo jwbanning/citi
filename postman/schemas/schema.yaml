@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Customers
-  description: "API for creating and managing banking customers."
+  description: "API for creating and managing banking customers. Hello world"
   version: 1.0.0
   contact: {}
 servers:
@@ -147,7 +147,7 @@ paths:
           in: query
           schema:
             type: string
-            example: "true"
+            example: "false"
       responses:
         "200":
           description: 200 OK
