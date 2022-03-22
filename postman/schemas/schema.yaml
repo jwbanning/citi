@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Customers
-  description: "API for creating and managing banking customers. Hello world"
+  description: "API for creating and managing banking customers. Hi Dan"
   version: 1.0.0
   contact: {}
 servers:
