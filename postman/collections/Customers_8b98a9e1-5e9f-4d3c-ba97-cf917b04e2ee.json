@@ -23,6 +23,21 @@
                                     "    pm.response.to.have.status(200);",
                                     "});",
                                     "",
+                                    "pm.test('Status code is 200', () => {",
+                                    "    pm.response.to.have.status(200);",
+                                    "});",
+                                    "pm.test('Status code is 200', () => {",
+                                    "    pm.response.to.have.status(200);",
+                                    "});",
+                                    "pm.test('Status code is 200', () => {",
+                                    "    pm.response.to.have.status(200);",
+                                    "});",
+                                    "pm.test('Status code is 200', () => {",
+                                    "    pm.response.to.have.status(200);",
+                                    "});",
+                                    "",
+                                    "",
+                                    "",
                                     "pm.test('API response is successful', () => {",
                                     "    pm.expect(res.status).to.eql('success');",
                                     "});",
@@ -101,15 +116,15 @@
                             ]
                         },
                         "url": {
-                            "raw": "{{url}}/create",
+                            "raw": "{{url}}/create&test=test",
                             "host": [
                                 "{{url}}"
                             ],
                             "path": [
-                                "create"
+                                "create&test=test"
                             ]
                         },
-                        "description": "Creates a new user in the system. The user will be assigned an ID automatically. This can be found in the response.\n\nHere is how you use this"
+                        "description": "Creates a new user in the system. The user will be assigned an ID automatically. This can be found in the response.\n\nAdded QS param for this test"
                     },
                     "response": [
                         {
